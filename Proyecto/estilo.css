@@ -1,0 +1,32 @@
+.caption {
+padding: 0;
+width: 100%;
+position: relative;
+}
+.caption img {
+width: 100%;
+height: auto;
+display: block;
+padding: 0;
+border: 0;
+}
+.caption::before {
+content: attr(title);
+position: absolute;
+background: #EAF200; /* Color de fondo */
+background: rgba(0, 0, 0, 0.6); /* Color de fondo en RGBA */
+color: white; /* Color del texto */
+font-size: 20px; /* Tamaño del texto */
+padding: 5px;
+right: 0;
+bottom: 0;
+left: 0;
+text-align: center;
+z-index: 1;
+}
+
+h1,h2 {
+	color:snow;
+	
+	background: rgba(0, 0, 0, 0.6)
+}
